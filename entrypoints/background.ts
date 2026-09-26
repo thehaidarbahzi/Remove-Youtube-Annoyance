@@ -7,7 +7,7 @@ export default defineBackground(() => {
       redirect: {
         transform: {
           queryTransform: {
-            removeParams: ["t", "themeRefresh"],
+            removeParams: ["t", "themeRefresh", "bp"],
           },
         },
       },

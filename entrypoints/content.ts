@@ -6,8 +6,12 @@ export default defineContentScript({
         if (!link.href) return;
 
         const url = new URL(link.href);
-        if (url.hostname.includes("youtube.com") && url.searchParams.has("t")) {
+        if (
+          (url.hostname.includes("youtube.com") && url.searchParams.has("t")) ||
+          url.searchParams.has("bp")
+        ) {
           url.searchParams.delete("t");
+          url.searchParams.delete("bp");
           link.href = url.toString();
         }
       } catch (e) {}
