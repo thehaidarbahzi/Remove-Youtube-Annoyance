@@ -17,6 +17,17 @@ Install the extension and browse YouTube normally. You’ll notice that video li
 
 ## Installation
 
+### Browser Extension Store
+
+#### Chrome
+
+Sorry there is none, because fuck chrome i have to pay $5 to event create a developer account.
+
+#### Firefox
+
+1. Visit [https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-annoyance](https://addons.mozilla.org/en-US/firefox/addon/remove-youtube-annoyance) on firefox
+2. Press `Add to Firefox` button
+
 ### GitHub Releases
 
 #### Chrome
